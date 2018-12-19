@@ -1,0 +1,35 @@
+===== DUVIDAS EXISTENCIAIS
+
+- update todo sábado ou a cada 7 dias ?
+- compra fake ou realista? 
+- 
+========== 
+
+MUSIC RUSH JOAREZ:
+
+
+v power ups em cima de espinhos
+c variavle de controle de spanw de power ups
+- logica reversa de criar pw de vision
+- spin disk numeros aumentarem com "distancia do centro"
+v exclamação desaparecer se não tem mais traps
+- manual traps: não aparecer o sinal de vision dos spikes
+
+v floor vazios entre stages: não criar os de 2 andares
+
+v restart do jogo com exclamação
+
+-----------
+objetivo: 1 a 2 personagens por dia. ou, 17 em 2 semanas -> se não der, em 1 semana.
+- numero de moedas por stage
+- numero de moedas por sessão (15min)
+- moedas na roleta
+- tempo da roleta
+- sessoes por dia (1 a 5)
+- preço do personagem
+
+v wall 2 spikes custom
+v par de spinhos
+v double wall custom
+v coin: 1 per floor (somente acima de spikes visiveis)
+c nao repetir 2 blocos

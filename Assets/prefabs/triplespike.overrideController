@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: triplespike
+  m_Controller: {fileID: 9100000, guid: 7eff3bf7ea42da8428e75a671d492b0a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 71cedaa7f4999784096806540a6ce19c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b66eac1dde04a9b459363c589a96a3c1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 489afef3247d5534a9ca0635351de7a6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: be9b33b3bf0542446b28189e18ff2872, type: 2}

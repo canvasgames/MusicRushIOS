@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 482262}
+  - component: {fileID: 11440628}
+  - component: {fileID: 11432192}
+  - component: {fileID: 11482112}
+  - component: {fileID: 11460144}
+  - component: {fileID: 11442908}
+  m_Layer: 11
+  m_Name: game_controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482262
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.52308655, y: -4.0586686, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11432192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f605cfa2ed86b4192cd2d5de84cd3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PW_INTRODUCED: 0
+  GIFT_INTRODUCED: 0
+  NEWBIE_PLAYER: 0
+  BEST_SCORE: 0
+  LAST_SCORE: 0
+  DAY_SCORE: 0
+  TOTAL_GAMES_WITH_TUTORIAL: 0
+  TOTAL_GAMES: 0
+  TOTAL_VIDEOS_WATCHED: 0
+  TUTORIAL_GAMES: 0
+  FIRST_PW_CREATED: 0
+  FIRST_HOLE_CREATED: 0
+  FIRST_WALL_CREATED: 0
+  NOTES: 0
+  TOTAL_NOTES: 0
+  GEMS: 0
+  TOTAL_GEMS: 0
+  FIRST_SESSION_DATE: 
+  FIRST_SATURDAY: 
+  NEXT_SATURDAY: 
+  LAST_UPDATE_UNLOCKED: 0
+  CUR_SPECIAL_OFFER: 0
+  SPECIAL_OFFER_END_DATE: 
+  SOUND_MUTED: 0
+--- !u!114 &11440628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2caeab3f5f00b64bac2f71c66da4cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicLayerN: 0
+  visionMask: {fileID: 0}
+  floor: {fileID: 0}
+  floor_type: {fileID: 165340, guid: 5fdf11c29becf7047b54844ba497b0e8, type: 2}
+  spike_type: {fileID: 193914, guid: bd92e27b36f212a4c897b538acdcebbc, type: 2}
+  hole_type: {fileID: 195054, guid: 4cc57f3b8634de2418ef84ff56528f78, type: 2}
+  hole_skin: {fileID: 0}
+  triple_spike_type: {fileID: 167892, guid: 47174a15738a28f41ab19cdb9a14831d, type: 2}
+  wall_type: {fileID: 136376, guid: f22530cc0ff72404780c343c451101c8, type: 2}
+  pw_icon: {fileID: 130670, guid: 841c53487232b54489572739b670ab13, type: 2}
+  QA_wave_name: {fileID: 121526, guid: 9e54772de5b82664c925dbf8384db91e, type: 2}
+  wave_id: 0
+  wave_name: 
+  ball: []
+  single: {fileID: 105914, guid: 629ee3c24eb015f4a836a67d9c7fa08d, type: 2}
+  camerda: {fileID: 0}
+  hole_size: 0
+  wave_ctrl: []
+  there_was_revive: 0
+  n_games_without_revive: 0
+  alertDebug: 0
+--- !u!114 &11442908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535bca6bb18e5df4c9b65cb32fd65181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  siteName: Kongregate
+--- !u!114 &11460144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5455456cf87144fb812cb8db4e16e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balls: []
+--- !u!114 &11482112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461266f7b38ad7c48a5431b5266b18b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power_ups_prefab: {fileID: 130670, guid: 841c53487232b54489572739b670ab13, type: 2}
+  note_trail_prefab: {fileID: 110890, guid: 245e4251bef089441a9ae59326f69f9f, type: 2}
+  note_prefab: {fileID: 136776, guid: ba448d2d8c790bd4bb0b7ee7b38aaa87, type: 2}
+  floor_prefab: {fileID: 165340, guid: 5fdf11c29becf7047b54844ba497b0e8, type: 2}
+  double_spike_prefab: {fileID: 193914, guid: bd92e27b36f212a4c897b538acdcebbc, type: 2}
+  triple_spike_prefab: {fileID: 167892, guid: 47174a15738a28f41ab19cdb9a14831d, type: 2}
+  squares_floor_prefab: {fileID: 162564, guid: ef3c0e6587b922340967e993aceb2eee, type: 2}
+  scores_floor_prefab: {fileID: 113590, guid: 0e7adab4e30cce446b31651f378eeeb9, type: 2}
+  saw_prefab: {fileID: 128036, guid: b979cbcb1127e2a42a822f7e9f0f8e43, type: 2}
+  holeJustHitboxPrefab: {fileID: 1774737748885342, guid: 5cc0f9ee3099d194481b7cd921895504,
+    type: 2}
+  holesPool: []
+  holesJustFallingHitboxPool: []
+  wallsPool: []
+  power_ups_pool: []
+  pw_scripts: []
+  note_pool: []
+  note_trail_pool: []
+  floor_pool: []
+  floor_scripts: []
+  double_spikes_pool: []
+  spikes_scripts: []
+  triple_spikes_pool: []
+  saw_pool: []
+  saw_scripts: []
+  squares_floor_pool: []
+  squares_floor_scripts: []
+  scores_floor_pool: []
+  bgs_pool: []
+  bgs1_pool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bgs2_pool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bgs3_pool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bgs4_pool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bgs5_pool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bgs_special_pool:
+  - {fileID: 0}
+  FloorNewHighscoreObj: {fileID: 0}
+  FloorLastScoreObj: {fileID: 0}
+  FloorBestScoreObj: {fileID: 0}
+  FloorDailyBestObj: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: single
+      value: 
+      objectReference: {fileID: 105914, guid: 629ee3c24eb015f4a836a67d9c7fa08d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: platform
+      value: 
+      objectReference: {fileID: 112670, guid: 079d38a827969f449af10fead2643053, type: 2}
+    - target: {fileID: 0}
+      propertyPath: floor_type
+      value: 
+      objectReference: {fileID: 112670, guid: 079d38a827969f449af10fead2643053, type: 2}
+    - target: {fileID: 0}
+      propertyPath: wave_ctrl
+      value: 
+      objectReference: {fileID: 102074, guid: 35de86d055e8fa14488891401fb5c53f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: spk
+      value: 
+      objectReference: {fileID: 193914, guid: bd92e27b36f212a4c897b538acdcebbc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: camerda
+      value: 
+      objectReference: {fileID: 2014356, guid: 2c13f692049b82d40a3ae2a5d73ddebc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: triple_spike_type
+      value: 
+      objectReference: {fileID: 167892, guid: 47174a15738a28f41ab19cdb9a14831d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: wall_type
+      value: 
+      objectReference: {fileID: 136376, guid: f22530cc0ff72404780c343c451101c8, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 102176}
+  m_IsPrefabParent: 1
